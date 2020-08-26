@@ -214,3 +214,13 @@ header button :active span {
 .language span:hover {
   cursor: pointer;
 }
+
+picture {
+  width: 100%;
+  height: auto;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+}
