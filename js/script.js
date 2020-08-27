@@ -16,6 +16,15 @@ testWebP(function (support) {
     }
 });
 
+$(document).ready(function(){
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang == "ru") {
+        $('.language__ru, .ru').addClass('active');
+    }else{
+        $('.language__eng, .eng').addClass('active');
+    }
+});
+
         // burger buttons 
 
 $(document).ready(function() {
