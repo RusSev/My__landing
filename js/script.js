@@ -16,7 +16,7 @@ testWebP(function (support) {
     }
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
     var userLang = navigator.language || navigator.userLanguage;
     if (userLang == "ru") {
         $('.language__ru, .ru').addClass('active');
@@ -51,3 +51,7 @@ function age(){
     document.write (my_age);
 }
 ;
+function scrTo(Elem, mode) {
+    var element = document.getElementById(Elem);
+    element.scrollIntoView(mode);
+};;
