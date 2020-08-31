@@ -562,7 +562,7 @@ h2 {
 }
 
 .contacts__box {
-  padding: 14px;
+  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -631,7 +631,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding: 14px;
+  padding: 26px 0;
 }
 
 .chat__text {
@@ -642,7 +642,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding: 14px;
+  padding: 8px;
   font-size: 30px;
   line-height: 1.3em;
 }
@@ -659,7 +659,6 @@ h2 {
   font-weight: 800;
   line-height: 50px;
   padding: 0 35px;
-  margin: 22px;
 }
 
 .ru,
